@@ -35,5 +35,5 @@ class Futbolista(Persona, Deportista):
         return cls._listaFutbolistas
     
     def __str__(self):
-        mensaje = "Mi nombre es {self._nombre} soy profesional en el deporte {self._deporte} Tengo {self._edad} años de edad y llevo {self._añosPracticando} años en el deporte"
+        mensaje = f"Mi nombre es {self._nombre} soy profesional en el deporte {self._deporte} Tengo {self._edad} años de edad y llevo {self._añosPracticando} años en el deporte"
         return mensaje
